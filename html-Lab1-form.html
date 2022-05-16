@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Lab 1</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="name">Name:</label>
+            <input required type="text" placeholder="Enter Name" maxlength="25">
+        </div><br><br>
+
+        <div>
+            <label for="email">Email:</label>
+            <input required type="email" value="test@example.com" autofocus>
+        </div><br><br>
+
+        <div>
+            <label for="password">Password:</label>
+            <input required type="password" minlength="6">
+        </div><br><br>
+        
+        <div>
+            <label for="category">Category:</label>
+            <select name="category" id="category">
+                <option value="student">Student</option>
+                <option value="employee">Employee</option>
+                <option value="freelancer" selected>Freelancer</option>
+            </select>
+        </div><br><br>
+
+        <div>
+            <label for="event date">Event Date</label>
+            <input required type="date">
+        </div><br><br>
+
+        <div>
+            <label for="ticket">Tickets:</label>
+            <input required type="radio" name="ticket">1 ticket
+            <input required type="radio" name="ticket" checked>2 tickets
+            <input required type="radio" name="ticket">3 tickets
+        </div><br><br>
+
+        <div>
+            <label for="online payment">Online payment</label>
+            <input required type="checkbox">
+        </div><br><br>
+
+        <div>
+            <label for="notes">Notes:</label>
+            <textarea name="notes" placeholder="Notes if any"></textarea>
+        </div><br><br>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
